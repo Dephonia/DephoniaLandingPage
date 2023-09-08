@@ -1,2 +1,10 @@
-# LandingPage_Dephonia
-Main Website for Dephonia
+# Landing Page
+## Home 
+- Problem Statement  
+- Product Description
+- Download Link (IOS, Android)
+
+## Low Priority
+### Try it out now (demo)
+### About Team
+### Contact Us 
