@@ -5,6 +5,6 @@
 - Download Link (IOS, Android)
 
 ## Low Priority
-### Try it out now (demo)
+### Try it out now (demo exercise embedded)
 ### About Team
 ### Contact Us 
