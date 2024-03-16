@@ -41,4 +41,4 @@
 - React Framework 
 
 ## Dependencies: 
-- node
+- Node Package Manager (NPM)
