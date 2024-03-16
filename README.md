@@ -31,6 +31,10 @@
 - Footer
 - Varying screen sizes
 - Contact Us
+- Try It Out
+- HostName (dephonia.com?)
+- AWS Lambda (Provide Inference)
+- AWS S3 (Store Recordings)
 
 ## Tech Stack: 
 - Typescript
