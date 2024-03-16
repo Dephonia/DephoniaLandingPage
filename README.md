@@ -1,15 +1,18 @@
-# Landing Page
-## Home 
-- Problem Statement  
-- Product Description
-- Download Link (IOS, Android)
+# Dephonia Landing Page
 
-## Low Priority
-### Try it out now (demo exercise embedded)
-### About Team
-### Contact Us 
+## Components:
+
+- Home 
+- Navigation Bar
+- Problem Statement
+- Dephonia Features
+- Try It Now
+- Supported By 
+- Contact Us 
+- Footer
 
 Stuff Needed:
 - Logo
-- Main Character (Fox? Dog? )
+- Main Character (Fox? Dog?)
 - Images from the App itself, Assets (e.g. backgrounds)
+- GIFs for Features Section
