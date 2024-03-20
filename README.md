@@ -14,7 +14,8 @@
 ## To run:
 1. Open Git Bash in Terminal. 
 2. Activate the environment with all dependencies installed. `conda activate <environmentName>`. 
-3. To start the local server `npm run dev`. Copy and open the URL provided in the terminal (e.g. http://localhost:5173/) 
+3. Make sure you are inside the correct directory. `cd DephoniaLabs`.
+4. To start the local server `npm run dev`. Copy and open the URL provided in the terminal (e.g. http://localhost:5173/) 
 
 ## Create Environment (conda):
 - Create a new environment with `conda env create -f <environmentFileName>` (e.g. environment.yml)
