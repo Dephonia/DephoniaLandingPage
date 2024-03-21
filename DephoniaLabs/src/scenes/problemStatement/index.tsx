@@ -4,7 +4,7 @@ import { imageText } from "@/scenes/problemStatement/constants"
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
-};
+  };
 
 const images = require.context('@/assets/problemStatement', true);
 const imageList = images.keys().map(image => images(image));
@@ -24,7 +24,7 @@ function createImageTiles() {
     );
   };
 
-const problemStatement = ({ setSelectedPage }: Props) => {
+  const ProblemStatement = ({ setSelectedPage }: Props) => {
   return <section id="problemStatement" className="">
     <motion.div
       onViewportEnter={() => setSelectedPage(SelectedPage.problemStatement)}
@@ -67,4 +67,4 @@ const problemStatement = ({ setSelectedPage }: Props) => {
   </section>
 }; 
 
-export default problemStatement;
+export default ProblemStatement;
