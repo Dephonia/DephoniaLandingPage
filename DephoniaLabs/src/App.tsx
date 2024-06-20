@@ -1,41 +1,42 @@
 import { SelectedPage } from "@/shared/types";
 import { useEffect, useState } from "react";
-// import landingPage from "@/scenes/landingPage"
-// import navBar from "@/scenes/navBar"
-// import keyBenefits from "@/scenes/keyBenefits"
-import ProblemStatement from "@/scenes/problemStatement"
-// import footer from "@/scenes/footer"
+// import Home from "@/scenes/home"
+// import Dephonia from "@/scenes/dephonia"
+// import Mission from "@/scenes/mission"
+import NavBar from "@/scenes/navbar";
+// import Footer from "@/scenes/footer"
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
-    SelectedPage.landingPage
+    SelectedPage.Home
   );
-  // const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
+  const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY === 0) {
-  //       setIsTopOfPage(true);
-  //       setSelectedPage(SelectedPage.landingPage);
-  //     }
-  //     if (window.scrollY !== 0) setIsTopOfPage(false);
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY === 0) {
+        setIsTopOfPage(true);
+        setSelectedPage(SelectedPage.Home);
+      }
+      if (window.scrollY !== 0) setIsTopOfPage(false);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <div className="app bg-gray-20">
-      {/* <Navbar
+    <div className="app bg-gray-90">
+      {<NavBar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
-      /> */}
-      {/* <Home setSelectedPage={setSelectedPage} />
-      <Benefits setSelectedPage={setSelectedPage} /> */}
-      <ProblemStatement setSelectedPage={setSelectedPage} />
-      {/* <ContactUs setSelectedPage={setSelectedPage} />
-      <Footer /> */}
+      /> }
+      {/*<Home setSelectedPage={setSelectedPage} />*/}
+      {/*<Mission setSelectedPage={setSelectedPage} />*/}
+      {/*<Dephonia setSelectedPage={setSelectedPage} />*/}
+      {/* <TryItOut setSelectedPage={setSelectedPage} />*/}
+      {/* <ContactUs setSelectedPage={setSelectedPage} />*/}
+      {/* <Footer setSelectedPage={setSelectedPage} />*/}
     </div>
   );
 }

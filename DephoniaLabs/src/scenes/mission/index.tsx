@@ -1,6 +1,6 @@
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import { imageText } from "@/scenes/problemStatement/constants"
+import { imageText } from "@/scenes/mission/constants"
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -24,10 +24,10 @@ function createImageTiles() {
     );
   };
 
-  const ProblemStatement = ({ setSelectedPage }: Props) => {
+  const Mission = ({ setSelectedPage }: Props) => {
   return <section id="problemStatement" className="">
     <motion.div
-      onViewportEnter={() => setSelectedPage(SelectedPage.problemStatement)}
+      onViewportEnter={() => setSelectedPage(SelectedPage.Mission)}
     >
         <motion.div
           className="mx-auto w-5/6"
@@ -67,4 +67,4 @@ function createImageTiles() {
   </section>
 }; 
 
-export default ProblemStatement;
+export default Mission;
