@@ -29,10 +29,12 @@
 
 ## To Do:
 Front End: 
-- Try It Out
+- Try It Out Page
 - Update Assets
+
 Backend:
 - HostName (dephonia.com)
+- Deploy Model on AWS
 - AWS Lambda (Provide Inference)
 - AWS S3 (Store Recordings)
 
