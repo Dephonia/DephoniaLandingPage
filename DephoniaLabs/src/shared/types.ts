@@ -1,8 +1,7 @@
 export enum SelectedPage {
-    landingPage = "landingpage",
-    problemStatement = "problemstatement",
-    keyBenefits = "keybenefits",
-    tryItOut = "tryitout",
-    supportedBy = "supportedby",
+    Home = "home",
+    Dephonia = "dephonia",
+    Mission = "mission",
+    TryItOut = "tryitout",
     contactUs = "contactus",
   }
