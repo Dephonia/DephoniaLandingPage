@@ -40,6 +40,7 @@
 ## Tech Stack: 
 - Typescript
 - React Framework 
+- Tailwind CSS
 
 ## Dependencies: 
 - Node Package Manager (NPM)
